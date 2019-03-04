@@ -14,7 +14,7 @@ You need git to clone the `booking-bug-angular-test` repository. You can get git
 Clone the `booking-bug-angular-test` repository using git:
 
 ```
-git clone https://github.com/angular/angular-seed.git
+git clone https://github.com/shruti2626/-booking-bug-angular-test.git
 cd booking-bug-angular-test
 
 
