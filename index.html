@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html lang="en" ng-app="myApp" >
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+  <div class="container"></div>
+  <div class="row">
+    <div class="col-md-3">
+      <h2 class="heading">AngularJS BookingBug Test</h2>
+         </div>
+    <div class="col-md-9">
+
+      <div ng-view></div>
+    </div> 
+    <script data-require="angular.js@1.2.28" data-semver="1.2.28" src="https://code.angularjs.org/1.2.28/angular.js"></script>
+    <script data-require="angular-route@1.2.28" data-semver="1.2.28" src="https://code.angularjs.org/1.2.28/angular-route.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+   <script src="app.js"></script>
+ 
+</body>
+</html>
+ 

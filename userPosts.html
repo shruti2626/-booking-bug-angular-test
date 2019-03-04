@@ -1,0 +1,31 @@
+<h4> User Posts Data here...</h4>
+<table  class="authorTable table table-responsive" >
+        <caption class="sr-only"></caption>
+        <thead>
+                <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">title </th>                
+                        <th scope="col">Body Content</th>
+                        <th scope="col">Author Name</th>
+                        <th scope="col">UserName</th>
+                        <th scope="col">emailId</th>
+                        <th scope="col">comment Body</th>
+                    </tr>
+        </thead>  
+        <tbody ng-repeat="data in newInfoData">            
+                <tr  ng-class-even="{even:true}" ng-class-odd="{odd:true}">
+                    <td ng-bind="data.id"></td>                    
+                    <td ng-bind="data.title"></td>
+                    <td ng-bind="data.body"></td>                                        
+                    <td><a href="#" ng-bind="data.name">
+                        <div>
+                            <span ng-bind="data.username"></span>
+                        </div>
+                    </a></td>
+                    <td ng-bind="data.username"></td>
+                    <td ng-bind="data.email"></td>
+                    <td ng-bind="data.commentbody"></td>
+                </tr>               
+            </tbody>  
+        </table>
+       
